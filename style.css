@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:300,400,700);
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  background-color: #000;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+a:visited {
+  color: white;
+}
+
+ul {
+  background-color: #1a1a1a;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  color: white;
+  display: block;
+  padding: 18px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+li a:hover {
+    opacity: 0.6;
+}
+
+.hero {
+  height: 100vh;
+  width: 100vw;
+} 
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.99)), url("https://www.teahub.io/photos/full/16-168437_wallpaper-books-library-shelves-lighting-library-background-wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90%;
+}
+
+.hero-text {
+  color: white;
+  left: 50%;
+  position: absolute; /* fixed position of an element for example even when scrolling */
+  text-align: center;
+  top: 50%;
+  transform: translate(-50%, -50%); /* when not using flexbox */
+}
+
+h1 {
+  font-size: 64px;
+  text-shadow: 0 0 5px #000000;
+}
+
+p {
+  font-size: 24px;
+  text-shadow: 0 0 5px #000000;
+}
+
+img {
+  margin: 25px auto 0;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.grid-container a {
+  background-color: #1a1a1a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  margin: 80px;
+  text-decoration: none;
+  width: 190px;
+}
+
+#Languages {
+  scroll-margin-top: 15vh;
+  text-align: center;
+}
+
+#Languages button {
+  background-color: #1a1a1a;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  margin: 4px;
+  padding: 15px 32px;
+  text-align: center;
+}
+
+form {
+  background-color: black;
+  margin: 0 auto;
+  max-width: 70%;
+  padding: 50px;
+}  
+
+fieldset {
+  border-color: #333333;
+  border-style: solid;
+  padding: 10px 25px;
+}
+
+textarea {
+  height: 180px;
+  width: 100%;
+  resize: none;
+}
+
+input[type=submit] {
+  background-color: #1a1a1a;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-family: 'Oswald', sans-serif;
+  padding: 10px 160px;
+  width: 100%;
+}
+
+input[type=submit]:hover {
+  background-color: #333333;
+}
+
+footer a:link {
+  background-color: transparent;
+  color: white;
+  font-size: 30px;
+}
+
+.footer {
+   background-color: #1a1a1a;
+   bottom: 0;
+   color: white;
+   left: 0;
+   position: relative;
+   text-align: center;
+   width: 100%;
+}
+
+.fa {
+  margin: 5px 2px;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+}
+
+.fa:hover {
+  opacity: 0.5;
+}
+
+.copyright {
+  font-size: 12px;
+}
